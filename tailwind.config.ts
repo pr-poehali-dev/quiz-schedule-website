@@ -32,6 +32,13 @@ export default {
 					DEFAULT: 'hsl(var(--secondary))',
 					foreground: 'hsl(var(--secondary-foreground))'
 				},
+				quiz: {
+					orange: '#FF6B35',
+					turquoise: '#4ECDC4', 
+					skyblue: '#45B7D1',
+					navy: '#2C3E50',
+					white: '#FFFFFF'
+				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
 					foreground: 'hsl(var(--destructive-foreground))'
