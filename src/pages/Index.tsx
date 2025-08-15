@@ -43,7 +43,7 @@ const Index = () => {
       category: "Кино",
       website: "https://arthaus-cafe.ru",
       description: "Окунитесь в мир классического кинематографа! Вопросы о легендарных фильмах и режиссёрах.",
-      date: "15 авг"
+      date: "Чт, 15 авг"
     },
     {
       id: 2,
@@ -56,7 +56,7 @@ const Index = () => {
       category: "Музыка",
       website: "https://nostalgia-bar.ru",
       description: "Вспомните золотые хиты девяностых! Угадывайте песни и исполнителей легендарного десятилетия.",
-      date: "16 авг"
+      date: "Пт, 16 авг"
     },
     {
       id: 3,
@@ -69,7 +69,7 @@ const Index = () => {
       category: "Наука",
       website: "https://atom-cafe.ru",
       description: "Проверьте свои знания о Вселенной! От квантовой физики до далёких галактик.",
-      date: "17 авг"
+      date: "Сб, 17 авг"
     },
     {
       id: 4,
@@ -82,7 +82,7 @@ const Index = () => {
       category: "История",
       website: "https://pushkin-lib.ru",
       description: "Узнайте больше об истории нашего родного города и его знаменитых жителях.",
-      date: "18 авг"
+      date: "Вс, 18 авг"
     },
     {
       id: 5,
@@ -95,7 +95,7 @@ const Index = () => {
       category: "IT",
       website: "https://techspace-lipetsk.ru",
       description: "Проверьте свои знания в области программирования, алгоритмов и современных технологий.",
-      date: "19 авг"
+      date: "Пн, 19 авг"
     },
     {
       id: 6,
@@ -108,7 +108,7 @@ const Index = () => {
       category: "Спорт",
       website: "https://champion-bar.ru",
       description: "Вопросы о спорте, олимпийских играх и знаменитых спортсменах.",
-      date: "20 авг"
+      date: "Вт, 20 авг"
     }
   ];
 
