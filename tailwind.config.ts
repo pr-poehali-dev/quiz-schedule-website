@@ -39,6 +39,13 @@ export default {
 					navy: '#2C3E50',
 					white: '#FFFFFF'
 				},
+				lipetsk: {
+					red: '#DC143C',
+					gold: '#FFD700',
+					green: '#228B22',
+					blue: '#4169E1',
+					white: '#FFFFFF'
+				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
 					foreground: 'hsl(var(--destructive-foreground))'

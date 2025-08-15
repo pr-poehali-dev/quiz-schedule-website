@@ -77,11 +77,14 @@ const Index = () => {
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-gradient-to-r from-quiz-orange to-quiz-turquoise rounded-full flex items-center justify-center">
-                <Icon name="Brain" className="text-white" size={24} />
+              <div className="w-12 h-12 bg-lipetsk-red border-2 border-lipetsk-gold rounded-lg flex items-center justify-center relative">
+                <Icon name="Brain" className="text-lipetsk-white" size={24} />
+                <div className="absolute -top-1 -right-1 w-4 h-4 bg-lipetsk-gold rounded-full flex items-center justify-center">
+                  <div className="w-2 h-2 bg-lipetsk-green rounded-full"></div>
+                </div>
               </div>
-              <h1 className="text-2xl font-bold bg-gradient-to-r from-quiz-orange to-quiz-turquoise bg-clip-text text-transparent">
-                Quiz Schedule
+              <h1 className="text-2xl font-bold text-lipetsk-red">
+                Липецк Quiz
               </h1>
             </div>
             <nav className="hidden md:flex space-x-6">
@@ -219,7 +222,7 @@ const Index = () => {
                       
                       {quiz.website && (
                         <Button 
-                          className="bg-gradient-to-r from-quiz-orange to-quiz-turquoise hover:from-quiz-orange/80 hover:to-quiz-turquoise/80 text-white"
+                          className="bg-lipetsk-blue hover:bg-lipetsk-blue/80 text-white"
                           onClick={(e) => {
                             e.stopPropagation();
                             window.open(quiz.website, '_blank');
